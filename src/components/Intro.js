@@ -9,7 +9,8 @@ const Intro = () => {
                 <div className='title'>Cari Tau Film</div>
                 <div className='title'>Gak Pake Ribet</div>
                 <div className='introButton'>
-                    <Button variant='dark' href='#trending'>Explore Available Film</Button>
+                    <Button className='mx-2' variant='dark' href='#trending'>Trending Movies</Button>
+                    <Button className='mx-2' variant='dark' href='#movie'>Explore Movies</Button>
                 </div>
               </Col>
             </Row>
